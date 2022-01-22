@@ -1,1 +1,36 @@
+body {
+  margin: 0;
+  background-color: #F0F3F7;
+  color: #4a4a4a;
+  font-family: Noto Sans, sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+}
 
+.app {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  border: 0px solid white;
+  border-radius: 0.7rem;  
+  padding: 1rem 4.8rem;
+  background-color: #007A72;
+  color: #F0F3F7;
+  font-size: 0.9rem;
+}
+
+.recipe-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 80%;
+  height: 10rem;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
