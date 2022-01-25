@@ -37,3 +37,13 @@ body {
 .introtext {
   color: #E6F0CA;
 }
+
+.ellipse {
+  width: 160vw;
+  height: 82vw;
+  background-color: #FFE70D;
+  position: absolute;
+  top: -58vw;
+  left: -7vw;
+  border-radius: 50%;
+}

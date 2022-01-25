@@ -14,6 +14,7 @@ const App = () => {
   }
   return (
     <>
+    <div class = "ellipse"></div>
     <h1>Hitta dagens mat</h1>
     <p class = "introtext">Ingen idé vad du ska laga idag? Få ett random receptförslag!</p>
     <Recipe recipe = {currentRecipe} />
