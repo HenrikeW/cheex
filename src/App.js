@@ -15,8 +15,9 @@ const App = () => {
   return (
     <>
     <h1>Hitta dagens mat</h1>
+    <p class = "introtext">Ingen idé vad du ska laga idag? Få ett random receptförslag!</p>
     <Recipe recipe = {currentRecipe} />
-    <button class = "button" onClick={() => getRandomRecipe()}>Ge mig inspo</button>
+    <button class = "button" onClick={() => getRandomRecipe()}>Hitta recept</button>
     </>
   );
 }
