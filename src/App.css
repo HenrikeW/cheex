@@ -5,14 +5,21 @@ body {
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
   height: 100vh;
+  overflow: hidden;
 }
 
 .app {
-  display: flex;
   height: 100%;
+  display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+}
+.heading {
+  font-size: 3.75rem;
+  line-height: 4.375rem;
+  margin: 5.5rem 0 0 2.5rem;
+  width: 100%;
 }
 
 .button {
@@ -21,7 +28,11 @@ body {
   padding: 1rem 4.8rem;
   background-color: #FFE70D;
   color: #3D3C3C;
-  font-size: 0.9rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 70%;
+  margin-bottom: 1.5rem;
 }
 
 .recipe-card {
@@ -29,13 +40,20 @@ body {
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  width: 80%;
   height: 10rem;
   padding: 1rem;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 .introtext {
   color: #E6F0CA;
+  margin: 1.5rem 0 0 2.5rem;
+  width: 100%;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 }
 
 .ellipse {
